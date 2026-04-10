@@ -69,36 +69,40 @@
               - EmailJS
               Replace the action URL below with your form endpoint.
             -->
-            <form id="contactForm" style="margin-top: 32px;">
+                  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+		  <input type="hidden" name="form-name" value="contact">
+		  <p style="display:none">
+                    <label>Don't fill this out: <input name="bot-field"></label>
+                  </p>	
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18px;">
                 <div class="form-group">
                   <label for="firstName">First Name *</label>
-                  <input type="text" id="firstName" required placeholder="Jane">
+                  <input type="text" id="firstName" name="firstName" required placeholder="Jane">
                 </div>
                 <div class="form-group">
                   <label for="lastName">Last Name *</label>
-                  <input type="text" id="lastName" required placeholder="Smith">
+                  <input type="text" id="lastName" name="lastName" required placeholder="Smith">
                 </div>
               </div>
 
               <div class="form-group">
                 <label for="email">Email Address *</label>
-                <input type="email" id="email" required placeholder="jane@yourbusiness.com">
+                <input type="email" id="email" name="email" required placeholder="jane@yourbusiness.com">
               </div>
 
               <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="(202) 709-5015">
+                <input type="tel" id="phone" name="phone" placeholder="(202) 709-5015">
               </div>
 
               <div class="form-group">
                 <label for="businessName">Business Name</label>
-                <input type="text" id="businessName" placeholder="Your Business LLC">
+                <input type="text" id="businessName" name="businessName" placeholder="Your Business LLC">
               </div>
 
               <div class="form-group">
                 <label for="service">Service You're Interested In</label>
-                <select id="service">
+                <select id="service" name="service">
                   <option value="">Select a service...</option>
                   <option value="monthly-bookkeeping">Monthly Bookkeeping</option>
                   <option value="quickbooks-setup">QuickBooks Online Setup</option>
@@ -112,12 +116,12 @@
 
               <div class="form-group">
                 <label for="message">How Can We Help? *</label>
-                <textarea id="message" required placeholder="Tell us a bit about your business and what you're looking for..."></textarea>
+                <textarea id="message" name="message" required placeholder="Tell us a bit about your business and what you're looking for..."></textarea>
               </div>
 
               <div class="form-group">
                 <label for="howHeard">How Did You Find Us?</label>
-                <select id="howHeard">
+                <select id="howHeard" name="howHeard">
                   <option value="">Select...</option>
                   <option value="google">Google Search</option>
                   <option value="referral">Referral</option>
@@ -126,7 +130,7 @@
                 </select>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;" onclick="event.preventDefault(); document.getElementById('formSuccess').style.display='block'; this.closest('form').style.display='none';">
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">
                 Send Message →
               </button>
               <p class="form-privacy">🔒 Your information is never shared or sold. We take your privacy seriously.</p>
