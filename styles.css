@@ -931,7 +931,16 @@ p:last-child { margin-bottom: 0; }
   border-color: var(--gold);
   background: var(--gold-pale);
 }
-.location-tag::before { content: '📍'; font-size: 0.8rem; }
+.location-tag::before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C99700' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E");
+}
 
 .remote-box {
   background: var(--navy);
@@ -941,11 +950,14 @@ p:last-child { margin-bottom: 0; }
   overflow: hidden;
 }
 .remote-box::after {
-  content: '🌐';
+  content: '';
   position: absolute;
   bottom: -10px; right: 20px;
-  font-size: 7rem;
-  opacity: 0.07;
+  width: 130px; height: 130px;
+  opacity: 0.09;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='1.2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M2 12h20'/%3E%3Cpath d='M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20'/%3E%3C/svg%3E");
 }
 .remote-box h3 { color: var(--white); margin-bottom: 16px; }
 .remote-box p  { color: rgba(255,255,255,0.65); font-size: 0.93rem; }
@@ -1404,3 +1416,19 @@ p:last-child { margin-bottom: 0; }
 }
 .hero .lead    { animation-delay: 0.12s; }
 .hero-actions  { animation-delay: 0.22s; }
+
+/* ============================================
+   INLINE SVG LINE ICONS (replaced former emoji)
+   ============================================ */
+svg[focusable="false"] { vertical-align: -0.125em; }
+
+.service-icon              { color: var(--navy); }
+.service-card:hover .service-icon { color: var(--gold); }
+.benefit-icon              { color: var(--gold); }
+.qb-feature-icon           { color: var(--navy); }
+.qb-visual-icon            { color: var(--gold); }
+.value-icon                { color: var(--gold); }
+.contact-icon              { color: var(--gold); }
+.qb-badge svg              { color: var(--gold); }
+.blog-card-img svg         { color: var(--gold); }
+#formSuccess svg           { color: var(--gold); }
