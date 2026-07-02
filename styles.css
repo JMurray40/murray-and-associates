@@ -513,6 +513,21 @@ p:last-child { margin-bottom: 0; }
   font-size: 1.1rem;
 }
 
+/* Google rating chip (trust bar) — enabled once real reviews exist */
+.trust-google {
+  gap: 7px;
+  transition: color var(--transition);
+}
+.trust-google:hover { color: var(--gold); }
+.trust-google strong { color: var(--navy); font-weight: 700; }
+.trust-google-stars {
+  display: inline-flex;
+  gap: 1px;
+  color: var(--gold);
+  font-size: 0.85rem;
+}
+.trust-google-label { color: var(--navy-mid); }
+
 /* ============================================
    SERVICES GRID
    ============================================ */
