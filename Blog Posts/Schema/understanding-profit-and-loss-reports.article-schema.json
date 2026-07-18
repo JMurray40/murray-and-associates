@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Understanding Profit and Loss Reports",
+  "description": "Your P&L has more to tell you than the bottom line. A 24-year controller explains how to actually read a Profit & Loss report — gross margin, budget vs. actual, trends — and why it won't show you cash.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/understanding-profit-and-loss-reports"
+  },
+  "url": "https://murray-and-associates.us/blog/understanding-profit-and-loss-reports",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "When to Hire a Bookkeeper for Your Small Business",
+  "description": "Not sure when to hire a bookkeeper? A controller with 24+ years of experience covers the real signals it's time — and explains the difference between a bookkeeper, a controller, and a CPA so you hire the right level of help.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/when-to-hire-a-bookkeeper-for-your-small-business"
+  },
+  "url": "https://murray-and-associates.us/blog/when-to-hire-a-bookkeeper-for-your-small-business",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

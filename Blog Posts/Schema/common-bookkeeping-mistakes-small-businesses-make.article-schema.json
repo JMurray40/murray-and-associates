@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Common Bookkeeping Mistakes Small Businesses Make",
+  "description": "A controller with 24+ years of experience breaks down the most common bookkeeping mistakes small businesses make — mixing funds, skipping reconciliations, ignoring sales and payroll tax — and how to fix them.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/common-bookkeeping-mistakes-small-businesses-make"
+  },
+  "url": "https://murray-and-associates.us/blog/common-bookkeeping-mistakes-small-businesses-make",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

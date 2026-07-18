@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Prepare Your Books for Tax Season",
+  "description": "A step-by-step guide to getting your books tax-ready — reconciliations, 1099s, estimated taxes, depreciation, home office, mileage, and owner draws — from a controller with 24+ years of experience.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/how-to-prepare-your-books-for-tax-season"
+  },
+  "url": "https://murray-and-associates.us/blog/how-to-prepare-your-books-for-tax-season",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

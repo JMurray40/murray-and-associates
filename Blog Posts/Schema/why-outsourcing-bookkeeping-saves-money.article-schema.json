@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Why Outsourcing Bookkeeping Saves Money",
+  "description": "Outsourcing bookkeeping isn't an added cost — it's usually cheaper than doing it badly or hiring in-house. A 24-year controller explains the real math and what outsourcing actually looks like.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/why-outsourcing-bookkeeping-saves-money"
+  },
+  "url": "https://murray-and-associates.us/blog/why-outsourcing-bookkeeping-saves-money",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

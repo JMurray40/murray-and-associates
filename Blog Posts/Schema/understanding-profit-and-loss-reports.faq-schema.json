@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between a P&L and a Balance Sheet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The P&L covers a period of time (did you make money over the month/year). The Balance Sheet is a single-moment snapshot of what you own and owe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is gross margin and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gross profit as a percentage of revenue. It tells you whether your core offering is actually profitable, before overhead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a profitable P&L mean I have money in the bank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is earned; cash is collected. A profitable business can still run short on cash."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I review my P&L?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly, in comparison to prior periods and to budget — not once a year at tax time."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is outsourced bookkeeping cheaper than hiring in-house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most small businesses, yes — you skip payroll taxes, benefits, software, and training, and you typically get someone more experienced."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I lose control of my books if I outsource?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. With shared QuickBooks access you see the same live data I do, anytime."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does outsourced bookkeeping actually include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually a monthly close: reconciliations, categorization, financial statements, and a review of what the numbers mean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do we have to meet in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The work is virtual and secure — shared file access and document sharing replace in-person handoffs."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I reconcile my accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly, every account, without exception. If you go longer, errors compound and get harder to trace."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the single most important bookkeeping habit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reconciliation. It's the one habit that keeps every other number honest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I really need separate business bank accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Commingling personal and business funds is the root cause of most of the messes I get called in to fix."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is bad bookkeeping actually expensive, or just annoying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expensive. Missed deductions, overpaid taxes, penalties on payroll and sales tax, and bigger CPA bills at year-end all trace back to sloppy books."
+      }
+    }
+  ]
+}

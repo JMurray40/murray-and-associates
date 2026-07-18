@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cash Flow Tips for Small Business Owners",
+  "description": "Profitable businesses still fail when they run out of cash. A controller with 24+ years of experience shares practical cash flow tips — forecasting, receivables, seasonality, credit lines, and the cash conversion cycle.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/cash-flow-tips-for-small-business-owners"
+  },
+  "url": "https://murray-and-associates.us/blog/cash-flow-tips-for-small-business-owners",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

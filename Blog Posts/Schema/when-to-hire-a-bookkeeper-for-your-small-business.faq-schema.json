@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I hire a bookkeeper or a CPA first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually a bookkeeper first — to keep your day-to-day records accurate. Your CPA handles tax filing and strategy, which is far easier and cheaper when the books are already clean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between a bookkeeper and a controller?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bookkeeper records transactions and reconciles accounts. A controller owns the accuracy of the whole financial picture — the close, reporting, controls, and what the numbers mean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is it time to hire help for my books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When bookkeeping eats real time, you're falling behind, volume has climbed, you've added employees, you can't answer basic financial questions, or something big (loan, sale, audit) is coming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I have to hire someone full-time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Fractional and outsourced bookkeeping, controller, and CFO services let you buy exactly the level of help you need."
+      }
+    }
+  ]
+}

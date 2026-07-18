@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "QuickBooks Tips for Beginners",
+  "description": "Practical QuickBooks Online tips for beginners from a controller with 24+ years of experience — chart of accounts, bank feeds, reconciliation, user permissions, closing the books, backups, and the audit log.",
+  "author": {
+    "@type": "Person",
+    "name": "Jason Murray",
+    "jobTitle": "Controller & Fractional CFO"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Murray & Associates",
+    "url": "https://murray-and-associates.us",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://murray-and-associates.us/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://murray-and-associates.us/blog/quickbooks-tips-for-beginners"
+  },
+  "url": "https://murray-and-associates.us/blog/quickbooks-tips-for-beginners",
+  "areaServed": [
+    "Washington DC",
+    "Maryland",
+    "Northern Virginia",
+    "United States"
+  ]
+}

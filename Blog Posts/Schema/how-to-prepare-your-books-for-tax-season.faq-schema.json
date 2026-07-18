@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I start preparing my books for taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ideally you keep them current all year. If not, start by November so you have time to chase missing documents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to send 1099s?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally, for any contractor or vendor you paid $600 or more during the year. You need their W-9 first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I pay quarterly estimated taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you're self-employed and expect to owe $1,000+ at filing, usually yes. Confirm with your tax professional to avoid underpayment penalties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the fastest way to lower my tax-prep bill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hand your preparer reconciled, clean books. They charge for cleanup time — remove it."
+      }
+    }
+  ]
+}
