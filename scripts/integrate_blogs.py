@@ -177,13 +177,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/245510475.js"></script>
   <!-- End of HubSpot Embed Code -->
 
-  <!-- Google Analytics (G-3TS0QE46ZF) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TS0QE46ZF"></script>
+  <!-- Google Analytics (G-6ZPV2836VH) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZPV2836VH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
-    gtag('config', 'G-3TS0QE46ZF');
+    gtag('config', 'G-6ZPV2836VH');
   </script>
   <!-- MailerLite Universal -->
   <script>
